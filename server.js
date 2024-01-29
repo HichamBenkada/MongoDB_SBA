@@ -24,9 +24,18 @@ const seed = require("./routes/seed");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-//Logger middleware
-// app.use((err,req,res,next)=>{
-// })
+// Custom Logger Middleware
+app.use((req, res, next) => {
+  const time = new Date();
+  console.log( `-----
+    ${time.toLocaleTimeString()}: A ${req.method} '${req.url}' request has been received.`);
+
+  if (Object.keys(req.body).length > 0) {
+    console.log('Containing the data:');
+    console.log(`${JSON.stringify(req.body)}`);
+  }
+  next();
+});
 
 //Generate the Jokes DataBase : http://localhost:5050/seed
 
