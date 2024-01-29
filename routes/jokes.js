@@ -4,6 +4,7 @@ const Joke = require("../models/Joke");
 
 router
   .route("/")
+  //GET all jokes posts
   .get(async (req, res) => {
     try {
       const jokes = await Joke.find({});
@@ -12,6 +13,7 @@ router
       res.status(500).send(error.message);
     }
   })
+  //Post a joke
   .post(async (req, res) => {
     try {
       const newJoke = new Joke(req.body);
@@ -35,6 +37,7 @@ router
       res.status(500).send(error);
     }
   })
+  //update a joke
   .put(async (req, res) => {
     try {
       const updatedJoke = await Joke.findByIdAndUpdate(
