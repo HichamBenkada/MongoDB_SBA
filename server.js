@@ -36,6 +36,10 @@ app.use("/api/jokes", jokes);
 app.use("/api/users", users);
 app.use("/api/comments", comments);
 
+// if page not found:
+app.use((req, res) => {
+  res.status(404).send("Oops! item not found");
+});
 //Server Running:
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
