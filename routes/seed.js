@@ -41,14 +41,24 @@ router.get("/", async (req, res) => {
       );
 
     // await Post.insertMany(jokes);
-    console.log("Past after saved",data.jokes)
+    // console.log("Past after saved",data.jokes)
     let jokeIds = await data.jokes.map((joke) => joke._id);
     
-    console.log("post id after saved",jokeIds)
+    // console.log("post id after saved",jokeIds)
 
-    //   await Comment.deleteMany({});
+      await Comment.deleteMany({});
+      data.comments = await Promise.all(
+        data.comments.map((comment) =>  {
+           const index= Math.floor(Math.random()*userIds.length);
+          return new Comment({
+            content: comment.content,
+            userId: userIds[index],
+            jokeId: jokeIds[index]
+          }).save();
+        })
+      );
 
-    console.log("data created");
+    console.log("Database collections are created");
     res.json({
       success: "JokesDB Collections are created and data successfully inserted",
     });
