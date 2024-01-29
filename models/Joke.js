@@ -8,7 +8,8 @@ const postSchema = new mongoose.Schema({
     },
     content:{
         type: String,
-        required: true
+        required: true,
+        minLength: 40,
     },
     userId:{ 
         type:mongoose.Schema.Types.ObjectId,
