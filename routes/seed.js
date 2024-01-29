@@ -31,7 +31,7 @@ router.get("/", async (req, res) => {
     //inserting joke collection
     await Joke.deleteMany({});
     data.jokes = await Promise.all(
-        data.jokes.map((joke, index) =>  {
+        data.jokes.map((joke) =>  {
           return new Joke({
             title: joke.tag,
             content: joke.content,

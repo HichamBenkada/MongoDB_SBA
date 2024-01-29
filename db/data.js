@@ -105,83 +105,83 @@ const data = {
   jokes: [
     {
       tag: "est et",
-      joke: "Why don't scientists trust atoms? Because they make up everything!",
+      content: "Why don't scientists trust atoms? Because they make up everything!",
     },
     {
       tag: "quasi id",
-      joke: "What do you call fake spaghetti? An impasta!",
+      content: "What do you call fake spaghetti? An impasta!",
     },
     {
       tag: "magnam",
-      joke: "Why was the computer cold? ...It left its Windows open.",
+      content: "Why was the computer cold? ...It left its Windows open.",
     },
     {
       tag: "The Creative Tomato",
-      joke: "One day, Tomato, Lettuce, and Cucumber were crossing the road. The tomato got squished by a car. Lettuce went to call for help, and Cucumber stayed with Tomato. When Lettuce returned, she said, 'I called for help, but they said we need a salad dressing!'",
+      content: "One day, Tomato, Lettuce, and Cucumber were crossing the road. The tomato got squished by a car. Lettuce went to call for help, and Cucumber stayed with Tomato. When Lettuce returned, she said, 'I called for help, but they said we need a salad dressing!'",
     },
     {
       tag: "Math explicado",
-      joke: "Why did the math book look sad? ...Because it had too many problems.",
+      content: "Why did the math book look sad? ...Because it had too many problems.",
     },
     {
       tag: "C#",
-      joke: "Why do Java developers wear glasses? ...Because they don't see sharp.",
+      content: "Why do Java developers wear glasses? ...Because they don't see sharp.",
     },
     {
       tag: "magn",
-      joke: "Why did the computer keep its drink on the windowsill? ...Because it wanted a Windows refresh.",
+      content: "Why did the computer keep its drink on the windowsill? ...Because it wanted a Windows refresh.",
     },
     {
       tag: "Jelly",
-      joke: "What did one strawberry say to the other? If you weren't so sweet, we wouldn't be in this jam!",
+      content: "What did one strawberry say to the other? If you weren't so sweet, we wouldn't be in this jam!",
     },
     {
       tag: "perferendis",
-      joke: "Why did the bicycle fall over? It was two-tired!",
+      content: "Why did the bicycle fall over? It was two-tired!",
     },
     {
       tag: "hardware",
-      joke: "How many programmers does it take to change a light bulb? ...None. It's a hardware problem",
+      content: "How many programmers does it take to change a light bulb? ...None. It's a hardware problem",
     },
     {
       tag: "fruits",
-      joke: "What did the apple say to the orange? Stop comparing apples and oranges!",
+      content: "What did the apple say to the orange? Stop comparing apples and oranges!",
     },
     {
       tag: "delectus",
-      joke: "Why did the scarecrow win an award? Because he was outstanding in his field!",
+      content: "Why did the scarecrow win an award? Because he was outstanding in his field!",
     },
     {
       tag: "quidem",
-      joke: "I told my wife she should embrace her mistakes. She gave me a hug. And then she said, 'I still love you.'",
+      content: "I told my wife she should embrace her mistakes. She gave me a hug. And then she said, 'I still love you.'",
     },
     {
       tag: "iusto",
-      joke: "Why did the bicycle fall over? It was two-tired!",
+      content: "Why did the bicycle fall over? It was two-tired!",
     },
     {
       tag: "fish",
-      joke: "What do you call a fish wearing a crown? ...A kingfish",
+      content: "What do you call a fish wearing a crown? ...A kingfish",
     },
     {
       tag: "The Musical Vegetable",
-      joke: "Carrot was trying to start a band. It invited Celery, Tomato, and Onion. They were discussing what kind of music they should play. Carrot said, 'I think we should play some roots music.' Tomato suggested salsa, Celery wanted something with a good crunch, and Onion said, 'Well, I'm all about those layers!'",
+      content: "Carrot was trying to start a band. It invited Celery, Tomato, and Onion. They were discussing what kind of music they should play. Carrot said, 'I think we should play some roots music.' Tomato suggested salsa, Celery wanted something with a good crunch, and Onion said, 'Well, I'm all about those layers!'",
     },
     {
       tag: "rerum iure",
-      joke: "Why do programmers prefer dark mode? ...Because light attracts bugs.",
+      content: "Why do programmers prefer dark mode? ...Because light attracts bugs.",
     },
     {
       tag: "The Wise Old Programmer",
-      joke: "An old programmer is asked, \"In your years of coding, what's the most important lesson you've learned?\" The old programmer replies, \"Never trust a program that's not giving you any errors. It's up to something.\"",
+      content: "An old programmer is asked, \"In your years of coding, what's the most important lesson you've learned?\" The old programmer replies, \"Never trust a program that's not giving you any errors. It's up to something.\"",
     },
     {
       tag: "Bug Detective",
-      joke: "A programmer walks into a crime scene where there's a broken API. Then start debugging, saying, \"I'll get to the bottom of this code.\"",
+      content: "A programmer walks into a crime scene where there's a broken API. Then start debugging, saying, \"I'll get to the bottom of this code.\"",
     },
     {
       tag: "magnam",
-      joke: "Why was the computer cold? ...It left its Windows open.",
+      content: "Why was the computer cold? ...It left its Windows open.",
     },
   ],
   comments: [
