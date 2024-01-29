@@ -1,7 +1,7 @@
 const mongoose =require('mongoose');
 
 const postSchema = new mongoose.Schema({
-    tag:{
+    title:{
         type:String,
         required: true,
         minLength: 1,
@@ -14,9 +14,7 @@ const postSchema = new mongoose.Schema({
         type:mongoose.Schema.Types.ObjectId,
         ref: 'User',
         required: true,
-    }, 
-  comments:[{type:mongoose.Schema.Types.ObjectId, 
-    ref:'Comment'}],
+    },
   createdAt: {
     type:Date,
     immutable:true,
